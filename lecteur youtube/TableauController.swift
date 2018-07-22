@@ -64,8 +64,11 @@ class TableauController: UIViewController, UITableViewDelegate, UITableViewDataS
         chansons.append(nenetteMarionnette)
         let nenetteHosto = Chanson(artiste: "Nenette", titre: "Nenette sort de l'hopital", code: "nBj56pAVIrs")
         chansons.append(nenetteHosto)
+        let dauphins = Chanson(artiste: "Adrien", titre: "Le scandale des dauphins", code: "_6s26FFDBk0")
+        chansons.append(dauphins)
         let despacito = Chanson(artiste: "Luis Fonsi", titre: "Despacito", code: "kJQP7kiw5Fk")
         chansons.append(despacito)
+
         tableView.reloadData()
     }
     
